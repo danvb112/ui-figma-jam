@@ -9,18 +9,21 @@ export function Square(props: NodeProps) {
                 type="source" 
                 position={Position.Right} 
             />
+
             <Handle
                 className="-left-5 w-3 h-3 bg-blue-400/80" 
                 id="left" 
                 type="source" 
                 position={Position.Left} 
             />
+
             <Handle
                 className="-top-5 w-3 h-3 bg-blue-400/80" 
                 id="top" 
                 type="source" 
                 position={Position.Top} 
             />
+            
             <Handle
                 className="-bottom-5 w-3 h-3 bg-blue-400/80" 
                 id="bottom" 
